@@ -1,0 +1,195 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="COMTNBBS" directorySegmentName="seg_0" id="851E8383-0684-9437-8956-FC352C714635">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:53 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+<schemaObject>473C65A2-3BC6-F010-5519-2C59D59F40A9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>9E3E9062-1042-FA41-9A78-FA75C9449A8D</segment>
+<tableSpace>483C2C86-763F-2192-4BB2-F299C6D30E96</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LAST_UPDT_PNTTM" id="0BE6EA31-DA33-425F-337D-E3C07863878A">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PARNTSCTT_NO" id="14ED5C54-CBEE-1B73-90DD-7BA7FC071FCA">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SJ_BOLD_AT" id="271E683D-FD92-76B1-C37E-57F8844A1471">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FRST_REGISTER_ID" id="2DBCCC94-29E6-DD22-AEE1-63ACB5C0583E">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_UPDUSR_ID" id="3901CD4C-9F83-2AF1-56D0-EB532018A661">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NTT_ID" id="3A92395D-612E-90AD-0B5D-57C6F4CA9BD3">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RDCNT" id="4BBD340D-5DC3-A9C7-482D-537388415149">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SORT_ORDR" id="58CF6959-8732-3D68-13B5-391082081733">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BBS_ID" id="5DBDC63E-01C2-B459-FA2D-B6BE604403ED">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ANSWER_AT" id="782A7EB1-0271-D178-6B33-6D4D54A65839">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SECRET_AT" id="7FDDFA94-2EAF-4236-9877-2915CA8CA31D">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ANSWER_LC" id="80A71B74-F17E-23C2-19CF-2AF58937F47D">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BLOG_ID" id="9D3A97DF-7F96-F3DC-4BEA-605277D66351">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NTCR_ID" id="A22965AE-2809-0CCD-5EDF-3916993E58FF">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NTT_NO" id="A699CD1F-D289-68EA-EF27-19808D854C1C">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NTCE_ENDDE" id="A71D3B3C-86C6-567A-8BC7-544CBE817FE5">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USE_AT" id="AD781631-4E45-D867-A176-775941184585">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NTT_SJ" id="AE54AA0E-F3B3-3768-3B98-9D9E368E2440">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOTICE_AT" id="CDBA2210-69B8-9EDC-9DFF-3EFC8D343591">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FRST_REGIST_PNTTM" id="D04E220A-4D75-4152-7B04-7FC82CA8472C">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NTT_CN" id="E6163A79-BE95-24BD-5718-FDC1BC456E1C">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PASSWORD" id="E7FEF22A-1DF7-C292-927E-D2979732F093">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NTCE_BGNDE" id="F926B428-079A-26C1-94F5-E1B380B3FAA9">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NTCR_NM" id="FBB19063-61B1-507C-278A-45173C7C9FD6">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ATCH_FILE_ID" id="FDD841AB-5759-43B2-06F3-5118AD1B1670">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="COMTNBBS_I01" id="4C4F635C-02F1-E241-4C01-75075089AE0A">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+<schemaObject>473C65A2-3BC6-F010-5519-2C59D59F40A9</schemaObject>
+<segment>34D6B122-D441-3EDB-E58D-A395AB22BBBB</segment>
+<tableSpace>483C2C86-763F-2192-4BB2-F299C6D30E96</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="COMTNBBS_PK" id="A1686F2A-5B52-DDA6-C226-22CF7786207E">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+<schemaObject>473C65A2-3BC6-F010-5519-2C59D59F40A9</schemaObject>
+<segment>34D6B122-D441-3EDB-E58D-A395AB22BBBB</segment>
+<tableSpace>483C2C86-763F-2192-4BB2-F299C6D30E96</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="COMTNBBS_FK1" id="6470C6C1-45A8-1A2B-0764-E7CA94A35FD1">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:56 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<lobStorages>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000073642C00005$$" id="8E3AF6BB-348C-9437-5415-A3874FB4E7DB">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:56 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>NTT_CN</column>
+<compression>NO</compression>
+<duplication>KEEP_DUPLICATES</duplication>
+<logging>YES</logging>
+<tableSpace>483C2C86-763F-2192-4BB2-F299C6D30E96</tableSpace>
+<lobStorageType>SECUREFILE</lobStorageType>
+</LobStorage>
+</lobStorages>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="COMTNBBS_PK" id="3A05AF73-A6BD-21A6-D3D5-1ACBCF6D3359">
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+<segment>34D6B122-D441-3EDB-E58D-A395AB22BBBB</segment>
+<tableSpace>483C2C86-763F-2192-4BB2-F299C6D30E96</tableSpace>
+<existingIndex>A1686F2A-5B52-DDA6-C226-22CF7786207E</existingIndex>
+<indexSegment>34D6B122-D441-3EDB-E58D-A395AB22BBBB</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

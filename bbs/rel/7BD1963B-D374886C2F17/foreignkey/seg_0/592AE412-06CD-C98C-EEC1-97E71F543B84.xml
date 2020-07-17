@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="592AE412-06CD-C98C-EEC1-97E71F543B84" containerWithKeyObject="851E8383-0684-9437-8956-FC352C714635" localFKIndex="6470C6C1-45A8-1A2B-0764-E7CA94A35FD1" name="COMTNBBS_FK1">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>C##SHJUNG</sourceObjSchema>
+<sourceObjName>COMTNBBS_FK1</sourceObjName>
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:56 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+<referredTableLongName>C##SHJUNG.COMTNBBSMASTER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>76FDAED8-1003-FDEE-624D-A2951DA4B8A6</referredTableID>
+<keyObject>68BA6654-378B-ABEB-E6E3-50768D73DB8B</keyObject>
+<referredKeyID>68BA6654-378B-ABEB-E6E3-50768D73DB8B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>BBS_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,292 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="76FDAED8-1003-FDEE-624D-A2951DA4B8A6" schemaObject="473C65A2-3BC6-F010-5519-2C59D59F40A9" name="COMTNBBSMASTER">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>C##SHJUNG</sourceObjSchema>
+<sourceObjName>COMTNBBSMASTER</sourceObjName>
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:53 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BBS_ID" id="F0AE8720-EAF4-316F-0BE7-0659B2CBB2C7">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>COMTNBBSMASTER</sourceObjSchema>
+<sourceObjName>BBS_ID</sourceObjName>
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BBS_NM" id="A13F4409-BE5D-273F-4A06-C97B2E563DCA">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>COMTNBBSMASTER</sourceObjSchema>
+<sourceObjName>BBS_NM</sourceObjName>
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BBS_INTRCN" id="939F2435-0DA5-391F-FADC-F08A358E85DD">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>COMTNBBSMASTER</sourceObjSchema>
+<sourceObjName>BBS_INTRCN</sourceObjName>
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2400 BYTE</dataTypeSize>
+<ownDataTypeParameters>2400 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BBS_TY_CODE" id="9C3789F4-1D89-F11A-3201-FCDE4DA7486F">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>COMTNBBSMASTER</sourceObjSchema>
+<sourceObjName>BBS_TY_CODE</sourceObjName>
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPLY_POSBL_AT" id="B2C6BBCB-47B7-A973-760A-58AAEABFBA0C">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>COMTNBBSMASTER</sourceObjSchema>
+<sourceObjName>REPLY_POSBL_AT</sourceObjName>
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FILE_ATCH_POSBL_AT" id="A22D900B-5017-63C9-5FCB-00603515643F">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>COMTNBBSMASTER</sourceObjSchema>
+<sourceObjName>FILE_ATCH_POSBL_AT</sourceObjName>
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATCH_POSBL_FILE_NUMBER" id="8E588059-2ED8-A6F8-C5C5-72B44B2908C6">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>COMTNBBSMASTER</sourceObjSchema>
+<sourceObjName>ATCH_POSBL_FILE_NUMBER</sourceObjName>
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATCH_POSBL_FILE_SIZE" id="8CC218DA-73C9-B284-6CCF-3C995850394D">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>COMTNBBSMASTER</sourceObjSchema>
+<sourceObjName>ATCH_POSBL_FILE_SIZE</sourceObjName>
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USE_AT" id="AFE13BC3-9928-858E-3F7D-A38E7DA1839A">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>COMTNBBSMASTER</sourceObjSchema>
+<sourceObjName>USE_AT</sourceObjName>
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TMPLAT_ID" id="2783A74E-09FC-DA02-5D32-1BBC02E2C82B">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>COMTNBBSMASTER</sourceObjSchema>
+<sourceObjName>TMPLAT_ID</sourceObjName>
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CMMNTY_ID" id="97D63F3C-1628-6FCE-F29B-BA6522D6C126">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>COMTNBBSMASTER</sourceObjSchema>
+<sourceObjName>CMMNTY_ID</sourceObjName>
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FRST_REGISTER_ID" id="B736D3E4-467C-3B6F-F60B-5A931E481333">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>COMTNBBSMASTER</sourceObjSchema>
+<sourceObjName>FRST_REGISTER_ID</sourceObjName>
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FRST_REGIST_PNTTM" id="E5B0BF09-8247-8F18-605C-91D2C8C8E5EB">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>COMTNBBSMASTER</sourceObjSchema>
+<sourceObjName>FRST_REGIST_PNTTM</sourceObjName>
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDUSR_ID" id="1E1D550B-0EF7-234D-3B64-EB5FAE78A996">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>COMTNBBSMASTER</sourceObjSchema>
+<sourceObjName>LAST_UPDUSR_ID</sourceObjName>
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_UPDT_PNTTM" id="FAD95F72-B9E5-31F6-81C1-AA64DA67BE99">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>COMTNBBSMASTER</sourceObjSchema>
+<sourceObjName>LAST_UPDT_PNTTM</sourceObjName>
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BLOG_ID" id="150B15E8-E4D8-70D8-1AE0-FB7146C9FD67">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>COMTNBBSMASTER</sourceObjSchema>
+<sourceObjName>BLOG_ID</sourceObjName>
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BLOG_AT" id="32B56EF4-71D4-9F2C-83BD-9C382283D5D8">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>COMTNBBSMASTER</sourceObjSchema>
+<sourceObjName>BLOG_AT</sourceObjName>
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="68BA6654-378B-ABEB-E6E3-50768D73DB8B" name="COMTNBBSMASTER_PK">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>C##SHJUNG</sourceObjSchema>
+<sourceObjName>COMTNBBSMASTER_PK</sourceObjName>
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0AE8720-EAF4-316F-0BE7-0659B2CBB2C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9063C02A-7932-AFE8-3AF8-492EEDD76914" schemaObject="473C65A2-3BC6-F010-5519-2C59D59F40A9" name="COMTNBBSMASTER_PK">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>C##SHJUNG</sourceObjSchema>
+<sourceObjName>COMTNBBSMASTER_PK</sourceObjName>
+<createdBy>jjk17</createdBy>
+<createdTime>2020-07-17 05:07:55 UTC</createdTime>
+<ownerDesignName>bbs</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0AE8720-EAF4-316F-0BE7-0659B2CBB2C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
